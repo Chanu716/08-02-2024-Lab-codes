@@ -17,7 +17,7 @@ int main(){
     while (low<=high){
         mid = (low+high)/2;
         if (arr[mid]==element){
-            printf("%d is found at index %d.\n," ,element, mid);
+            printf("%d is found at index %d.\n" ,element, mid);
             break;
         }
 
